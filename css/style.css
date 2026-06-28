@@ -1,0 +1,87 @@
+/* === Base layout === */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9bb7d4; /* blå bakgrund */
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* === Typography === */
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* === Images (core behaviour) === */
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+/* === Links === */
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* === Back button === */
+
+.back-button {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.back-button a {
+    display: inline-block;
+    background-color: #f1c232;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* === Footer === */
+
+footer {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+}
